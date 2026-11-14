@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.docscanner"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.docscanner"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
     }
@@ -47,5 +47,5 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
 
     // Google ML Kit Document Scanner: edge detection, crop, rotate, filters, multi-page, PDF export
-    implementation("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0-beta1")
+    implementation("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0")
 }
